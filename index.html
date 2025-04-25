@@ -1,18 +1,48 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Jyot Shah | Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: Arial; margin: 40px; background: #f5f5f5; color: #333; }
-    h1 { color: #1a73e8; }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hi, I'm Jyot Shah</h1>
-  <p>Software Engineering Student • Web Developer • Android Enthusiast</p>
-  <p>Check out my <a href="#projects">projects</a> and <a href="#contact">contact</a> details below.</p>
+  <header>
+    <h1>Jyot Shah</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Software Engineering student passionate about building clean, user-friendly applications.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Task Manager App</h3>
+      <p>A to-do list with notifications, built with vanilla JS.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Jyot Shah</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
