@@ -56,47 +56,23 @@ body {
     color: #2d2d2d;
   }
   
-  .carousel-container {
-    position: relative;
-    overflow: hidden;
-    max-width: 100%;
-    margin: 0 auto;
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
   }
   
-  .carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .carousel-card {
-    min-width: 100%;
-    padding: 2rem;
-    box-sizing: border-box;
+  .project-card {
     background: #fdfaf6;
     border: 1px solid #e1dcd1;
     border-radius: 8px;
+    padding: 1.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease;
   }
   
-  .carousel-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-  }
-  
-  .carousel-buttons button {
-    background-color: #3e3e3e;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .carousel-buttons button:hover {
-    background-color: #2a2a2a;
+  .project-card:hover {
+    transform: translateY(-5px);
   }
   
   form input,
@@ -133,15 +109,4 @@ body {
     font-size: 0.9rem;
     color: #555;
     border-top: 1px solid #dcd2c1;
-  }
-
-/* About Me Section Styling */
-#about p {
-    font-size: 1.1rem;
-    color: #444;
-    background-color: #fdfaf6;
-    padding: 1.5rem;
-    border-radius: 8px;
-    border: 1px solid #e1dcd1;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
   }
