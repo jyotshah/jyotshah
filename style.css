@@ -1,154 +1,153 @@
 body {
     font-family: 'Georgia', serif;
-    background-color: #fefcfa;
-    background-image: url('image2.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #f5f0e6;
+    background-image: url('image2.png'); /* replace with actual file name */
+    background-size: cover;       /* stretch to cover full area */
+    background-position: center;  /* center the image */
+    background-repeat: no-repeat; /* don't tile the image */
+    background-attachment: fixed; /* optional: makes it stay fixed on scroll */
     color: #2d2d2d;
     margin: 0;
     padding: 0;
     line-height: 1.6;
   }
   
-  header {
-    background-color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    padding: 2rem;
-    border-bottom: 1px solid #e2dacc;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    color: #2d2d2d;
-  }
-  
-  .subtitle {
-    font-size: 1.2rem;
-    color: #555;
-    margin-top: 0.5rem;
-  }
-  
-  nav {
-    margin-top: 1rem;
-  }
-  
-  nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #555;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  nav a:hover {
-    color: #2d2d2d;
-  }
-  
-  section {
-    padding: 3rem 1.5rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 10px;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    border-bottom: 2px solid #e2dacc;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-    color: #2d2d2d;
-  }
-  
-  .carousel-container {
-    position: relative;
-    overflow: hidden;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-  
-  .carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .carousel-card {
-    min-width: 100%;
-    padding: 2rem;
-    box-sizing: border-box;
-    background: rgba(255, 255, 255, 0.85);
-    border: 1px solid #e2dacc;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
-  }
-  
-  .carousel-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-  }
-  
-  .carousel-buttons button {
-    background-color: #3e3e3e;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .carousel-buttons button:hover {
-    background-color: #2a2a2a;
-  }
-  
-  form input,
-  form textarea {
-    width: 100%;
-    padding: 0.75rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #fff;
-    font-family: inherit;
-    color: #2d2d2d;
-  }
-  
-  button {
-    padding: 0.75rem 1.5rem;
-    background-color: #3e3e3e;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #2a2a2a;
-  }
-  
-  footer {
-    background-color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
-    color: #555;
-    border-top: 1px solid #e2dacc;
-  }
-  
-  /* About Me Section Styling */
-  #about p {
-    font-size: 1.1rem;
-    color: #444;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 1.5rem;
-    border-radius: 8px;
-    border: 1px solid #e2dacc;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
-  }
+
+header {
+  background-color: #f1e8dc;
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 1px solid #dcd2c1;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #2d2d2d;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #2d2d2d;
+}
+
+section {
+  padding: 3rem 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid #dcd2c1;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #2d2d2d;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-card {
+  min-width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  background: #fdfaf6;
+  border: 1px solid #e1dcd1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.carousel-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.carousel-buttons button {
+  background-color: #3e3e3e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-buttons button:hover {
+  background-color: #2a2a2a;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-family: inherit;
+  color: #2d2d2d;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #3e3e3e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2a2a2a;
+}
+
+footer {
+  background-color: #f1e8dc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #dcd2c1;
+}
+
+/* About Me Section Styling */
+#about p {
+  font-size: 1.1rem;
+  color: #444;
+  background-color: #fdfaf6;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e1dcd1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
