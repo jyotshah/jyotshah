@@ -206,10 +206,27 @@ footer {
   
   .icon-skills {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    overflow-x: auto;
     gap: 2rem;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
   }
+  
+  .icon-skills::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .skill-item {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+  }
+  
   
   .skill-item {
     display: flex;
