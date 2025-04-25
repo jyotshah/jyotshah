@@ -258,3 +258,25 @@ footer {
     color: rgb(0, 0, 0);
   }
   
+  .icon-skills-wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .icon-skills-wrapper .icon-skills {
+    display: flex;
+    gap: 2rem;
+    animation: scrollSkills 30s linear infinite;
+    width: max-content;
+  }
+  
+  @keyframes scrollSkills {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
