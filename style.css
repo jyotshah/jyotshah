@@ -1,27 +1,28 @@
 body {
     font-family: 'Georgia', serif;
-    background-color: #f9f6f0; /* neutral beige */
-    color: #3e3e3e;
+    background-color: #f5f0e6;
+    color: #2d2d2d;
     margin: 0;
     padding: 0;
     line-height: 1.6;
   }
   
   header {
-    background-color: #f2ede7; /* soft beige */
+    background-color: #f1e8dc;
     text-align: center;
     padding: 2rem;
+    border-bottom: 1px solid #dcd2c1;
   }
   
   header h1 {
     margin: 0;
     font-size: 2.5rem;
-    color: #2e2e2e;
+    color: #2d2d2d;
   }
   
   .subtitle {
     font-size: 1.2rem;
-    color: #5c5c5c;
+    color: #555;
     margin-top: 0.5rem;
   }
   
@@ -32,36 +33,46 @@ body {
   nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #5c5c5c;
+    color: #555;
     font-weight: bold;
     transition: color 0.3s ease;
   }
   
   nav a:hover {
-    color: #2e2e2e;
+    color: #2d2d2d;
   }
   
   section {
     padding: 3rem 1.5rem;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
   }
   
   h2 {
     font-size: 2rem;
-    border-bottom: 2px solid #e0dacf;
+    border-bottom: 2px solid #dcd2c1;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
-    color: #2e2e2e;
+    color: #2d2d2d;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
   }
   
   .project-card {
-    background: #fffdf8;
-    border: 1px solid #e0dacf;
+    background: #fdfaf6;
+    border: 1px solid #e1dcd1;
     border-radius: 8px;
     padding: 1.5rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
   }
   
   form input,
@@ -71,8 +82,9 @@ body {
     margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: #fffdf8;
+    background-color: #fff;
     font-family: inherit;
+    color: #2d2d2d;
   }
   
   button {
@@ -87,13 +99,14 @@ body {
   }
   
   button:hover {
-    background-color: #2e2e2e;
+    background-color: #2a2a2a;
   }
   
   footer {
-    background-color: #f2ede7;
+    background-color: #f1e8dc;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
-    color: #5c5c5c;
+    color: #555;
+    border-top: 1px solid #dcd2c1;
   }
