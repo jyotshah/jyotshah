@@ -51,7 +51,22 @@
     <div class="project-category">
       <h3>Mobile Application Development</h3>
       <ul>
-        <li>Project 1 - Task Scheduler App (Android)</li>
+        <div class="project-category expandable">
+            <h3 onclick="toggleDetails(this)">📱 WorkNest – Restaurant Crew & Task Manager</h3>
+            <div class="project-details">
+              <p>
+                A full-featured Android app built using <strong>Kotlin</strong> and <strong>Jetpack Compose</strong> that helps restaurant owners manage staff, tasks, and expenses efficiently.
+              </p>
+              <ul>
+                <li>👥 Crew Management – Adds/edits/view/deletes team with optional LinkedIn links</li>
+                <li>🗂️ Task Management – Prioritizes and tracks task completion with local notifications</li>
+                <li>💰 Expense Tracker – Logs expenses with categories, sliders, and date pickers</li>
+                <li>🔋 BroadcastReceivers – Handles battery low, internet loss, and device reboot</li>
+                <li>🧠 SQLite DB – Handles all persistent data with custom `DatabaseManager`</li>
+              </ul>
+            </div>
+          </div>
+          
       </ul>
     </div>
   
