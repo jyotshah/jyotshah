@@ -150,3 +150,29 @@ footer {
   border: 1px solid #440000;
   box-shadow: 0 1px 3px rgba(0,0,0,0.03);
 }
+
+.project-category {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background-color: #fdfaf6;
+    border: 1px solid #440000;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  }
+  
+  .project-category h3 {
+    font-size: 1.5rem;
+    color: #3e3e3e;
+    margin-bottom: 1rem;
+  }
+  
+  .project-category ul {
+    padding-left: 1.2rem;
+  }
+  
+  .project-category li {
+    list-style-type: disc;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
