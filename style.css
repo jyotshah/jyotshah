@@ -188,4 +188,57 @@ footer {
   .project-details li {
     margin-bottom: 0.5rem;
   }
+
+  #skills {
+    padding: 3rem 1.5rem;
+    background-color: #d11241;
+    color: white;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .section-title span {
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+  
+  .icon-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+  }
+  
+  .skill-item img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s;
+  }
+  
+  .skill-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .skill-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+  }
   
