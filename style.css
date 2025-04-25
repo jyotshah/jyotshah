@@ -134,3 +134,15 @@ footer {
   color: #555;
   border-top: 1px solid #dcd2c1;
 }
+
+/* About Me Section Styling */
+#about p {
+    font-size: 1.1rem;
+    color: #444;
+    background-color: #fdfaf6;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #e1dcd1;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+  }
+  
