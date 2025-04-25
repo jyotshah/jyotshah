@@ -1,6 +1,11 @@
 body {
     font-family: 'Georgia', serif;
-    background-color: #fffaf0; /* Plain ivory background */
+    background-color: #fffaf0;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #2d2d2d;
     margin: 0;
     padding: 0;
