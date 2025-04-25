@@ -116,13 +116,15 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <form id="contactForm">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
+    <form action="https://formspree.io/f/mgvkvokv" method="POST" id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
       <button type="submit">Send</button>
     </form>
-  </section>  
+    <p id="form-status" style="text-align: center; color: green; margin-top: 1rem;"></p>
+  </section>
+    
 
   <footer>
     <p>&copy; 2025 Jyot Shah</p>
