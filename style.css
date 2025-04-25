@@ -2,7 +2,6 @@ body {
     font-family: 'Georgia', serif;
     background-color: #f5f0e6;
     background-image: url('image2.png'); /* replace with actual file name */
-    background-size: cover;       /* stretch to cover full area */
     background-position: center;  /* center the image */
     background-repeat: no-repeat; /* don't tile the image */
     background-attachment: fixed; /* optional: makes it stay fixed on scroll */
