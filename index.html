@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jyot Shah | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Jyot Shah</h1>
+    <p class="subtitle">Software Engineer & Creative Thinker</p>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
@@ -18,20 +19,23 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Software Engineering student passionate about building clean, user-friendly applications.</p>
+    <p>I am a software engineering student with a passion for minimal design and clean, user-centric code. This portfolio reflects who I am — simple, elegant, and functional.</p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
     <div class="project-card">
       <h3>Task Manager App</h3>
-      <p>A to-do list with notifications, built with vanilla JS.</p>
+      <p>A to-do list with reminders and notifications, built using vanilla JavaScript and localStorage.</p>
+    </div>
+    <div class="project-card placeholder">
+      <h3>More Projects Coming Soon...</h3>
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <form>
+    <form id="contactForm">
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
       <textarea placeholder="Your Message"></textarea>
@@ -40,7 +44,7 @@
   </section>
 
   <footer>
-    <p>© 2025 Jyot Shah</p>
+    <p>&copy; 2025 Jyot Shah</p>
   </footer>
 
   <script src="script.js"></script>
