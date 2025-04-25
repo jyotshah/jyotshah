@@ -1,6 +1,6 @@
 body {
     font-family: 'Georgia', serif;
-    background-color: #f7f1e3;
+    background-color: #f9f6f0; /* neutral beige */
     color: #3e3e3e;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
   }
   
   header {
-    background-color: #e7d8c9;
+    background-color: #f2ede7; /* soft beige */
     text-align: center;
     padding: 2rem;
   }
@@ -16,12 +16,12 @@ body {
   header h1 {
     margin: 0;
     font-size: 2.5rem;
-    color: #3e3e3e;
+    color: #2e2e2e;
   }
   
   .subtitle {
     font-size: 1.2rem;
-    color: #6b6b6b;
+    color: #5c5c5c;
     margin-top: 0.5rem;
   }
   
@@ -32,13 +32,13 @@ body {
   nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #6b6b6b;
+    color: #5c5c5c;
     font-weight: bold;
     transition: color 0.3s ease;
   }
   
   nav a:hover {
-    color: #3e3e3e;
+    color: #2e2e2e;
   }
   
   section {
@@ -49,18 +49,19 @@ body {
   
   h2 {
     font-size: 2rem;
-    border-bottom: 2px solid #e0cfc0;
+    border-bottom: 2px solid #e0dacf;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
+    color: #2e2e2e;
   }
   
   .project-card {
-    background: #fffaf2;
-    border: 1px solid #e0cfc0;
+    background: #fffdf8;
+    border: 1px solid #e0dacf;
     border-radius: 8px;
     padding: 1.5rem;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
   }
   
   form input,
@@ -70,13 +71,13 @@ body {
     margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #fffdf8;
     font-family: inherit;
   }
   
   button {
     padding: 0.75rem 1.5rem;
-    background-color: #a67c52;
+    background-color: #3e3e3e;
     color: white;
     border: none;
     border-radius: 4px;
@@ -86,14 +87,13 @@ body {
   }
   
   button:hover {
-    background-color: #916a44;
+    background-color: #2e2e2e;
   }
   
   footer {
-    background-color: #e7d8c9;
+    background-color: #f2ede7;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
-    color: #6b6b6b;
+    color: #5c5c5c;
   }
-  
