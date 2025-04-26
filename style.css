@@ -313,8 +313,8 @@ footer {
   
   .badge {
     display: inline-block;
-    background-color: #ddd;
-    color: #333;
+    background-color: #150101;
+    color: #f1f1f1;
     font-size: 0.85rem;
     padding: 0.4rem 0.7rem;
     border-radius: 20px;
