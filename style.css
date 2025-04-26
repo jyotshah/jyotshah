@@ -345,3 +345,39 @@ footer {
     }
   }
   
+  .currently-learning-cards {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #f8f1e7;
+    border-left: 5px solid #8b2608;
+    border-radius: 12px;
+  }
+  
+  .currently-learning-cards h3 {
+    font-size: 1.5rem;
+    color: #8b2608;
+    margin-bottom: 1.2rem;
+  }
+  
+  .learning-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .learning-card {
+    background-color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .learning-card:hover {
+    transform: scale(1.1) rotate(2deg);
+    background-color: #ffe8d6;
+  }
+  
