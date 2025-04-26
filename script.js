@@ -1,5 +1,7 @@
 const form = document.getElementById("contactForm");
 const status = document.getElementById("form-status");
+const sparkleCards = document.querySelectorAll('.sparkle-card');
+
 
 form.addEventListener("submit", async function (e) {
   e.preventDefault();
@@ -24,4 +26,15 @@ form.addEventListener("submit", async function (e) {
   } catch (error) {
     status.textContent = "Oops! Something went wrong. Please try again.";
   }
+});
+
+sparkleCards.forEach(card => {
+  card.addEventListener('mousemove', e => {
+    const sparkle = document.createElement('div');
+    sparkle.className = 'sparkle';
+    sparkle.style.left = (e.offsetX - 3) + 'px';
+    sparkle.style.top = (e.offsetY - 3) + 'px';
+    card.appendChild(sparkle);
+    setTimeout(() => sparkle.remove(), 1000);
+  });
 });
