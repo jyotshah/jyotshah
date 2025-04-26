@@ -326,7 +326,7 @@ footer {
   .sparkle {
     width: 5px;
     height: 5px;
-    background: radial-gradient(circle, #FFD700 0%, #FFA500 40%, transparent 70%);
+    background: radial-gradient(circle, #bebdb2 40%, transparent 70%);
     position: absolute;
     border-radius: 50%;
     animation: sparkle 1s ease-out forwards;
