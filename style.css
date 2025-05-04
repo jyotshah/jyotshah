@@ -232,13 +232,13 @@ footer {
     padding: 1rem 0;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     scrollbar-width: thin;
   }
   
   .icon-skills::-webkit-scrollbar {
-    height: 8px;
+    height: 6px;
   }
   
   .icon-skills::-webkit-scrollbar-track {
@@ -250,6 +250,10 @@ footer {
     border-radius: 10px;
   }
   
+  .icon-skills::-webkit-scrollbar-button {
+    display: none;    
+  }
+
   .skill-item {
     flex: 0 0 auto;
     scroll-snap-align: center;
