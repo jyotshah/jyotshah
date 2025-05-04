@@ -235,7 +235,7 @@ footer {
   }
 
   .icon-skills::-webkit-scrollbar {
-    display:block;
+    display: none;
   }
   
   .skill-item {
