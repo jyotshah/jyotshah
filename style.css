@@ -232,10 +232,27 @@ footer {
     padding: 1rem 0;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+  
+    width: 80%;       
+    margin: 0 auto;           
+    scrollbar-width: thin;   
   }
 
   .icon-skills::-webkit-scrollbar {
-    display: none;
+    height: 8px;
+  }
+  
+  .icon-skills::-webkit-scrollbar-track {
+    background: transparent;  
+  }
+  
+  .icon-skills::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #8b2608, #db7093); 
+    border-radius: 100px;   
+  }
+  
+  .icon-skills::-webkit-scrollbar-button {
+    display: none;    
   }
   
   .skill-item {
@@ -244,7 +261,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100px;
+    width: 80px;       
   }
   
   .skill-item img {
@@ -264,6 +281,7 @@ footer {
     font-size: 1rem;
     color: rgb(0, 0, 0);
   }
+  
   
   #socials {
     padding: 3rem 1.5rem;
