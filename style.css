@@ -230,12 +230,24 @@ footer {
     overflow-x: auto;
     gap: 2rem;
     padding: 1rem 0;
-    margin: 0 auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    max-width: 80%; 
-    justify-content: flex-start;
-    scrollbar-width: none;
+    width: 60%;
+    margin: 0 auto;
+    scrollbar-width: thin;
+  }
+  
+  .icon-skills::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .icon-skills::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .icon-skills::-webkit-scrollbar-thumb {
+    background-color: #8b2608; 
+    border-radius: 10px;
   }
   
   .skill-item {
