@@ -238,11 +238,6 @@ footer {
     scrollbar-width: none;
   }
   
-  
-  .icon-skills::-webkit-scrollbar {
-    display: none;
-  }
-  
   .skill-item {
     flex: 0 0 auto;
     scroll-snap-align: center;
